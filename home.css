@@ -1,0 +1,739 @@
+/*     Made by @tribhuwan-kumar    */
+/*    17th of September 2023       */
+/*        MIT License              */
+
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.header{
+    padding-bottom: 1775px;
+    
+
+}
+
+
+#background1{
+    background: scroll;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+}
+
+/* Main heading text */
+#background1 > h1{
+    color: #7541f8;
+    font-family: 'Kaushan Script', cursive;
+    display: block;
+    justify-content: center;
+    padding-top: 165px;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(69, 24, 85, 0.219);
+    z-index: 100;
+
+    
+}
+/* Main heading text END */
+
+
+
+/* Left side heading text */
+#left-heading{
+    color: #ffffff;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 15px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 2.5rem;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+    text-decoration: none;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+
+}
+
+#left-heading:hover{
+    color: #7541f8;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(300px);
+
+}
+/* Left side heading text END */
+
+
+/*bottom topics under main header*/
+#bottom-topics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#bottom-topics li{
+    text-decoration: none;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+    
+}
+
+
+#bottom-topics li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style-type: disc;
+    padding-left: 40px;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+#bottom-topics li a:hover{
+    text-decoration: none;
+    position: relative;
+    color: #7541f8;
+    transition: color 0.8s;
+    text-shadow: 2px 2px 4px rgba(69, 24, 85, 0.219);
+
+}
+/*bottom topics under main header END */
+
+/*nav container*/
+#nav_container{
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgba(8, 9, 31, 0.48);
+    backdrop-filter: blur(1px);
+    height: 80px;
+    width: auto;
+    z-index: 100;
+
+}
+
+#navbar{
+    display: block;
+    float: right;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding-top: 15px;
+    padding-right: 50px;
+
+}
+
+#navbar a{
+    float: left;
+    display: inline;
+    color: white;
+    text-align: right;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6rem;
+    font-weight: bold; 
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+
+}
+
+#navbar a:hover {
+    transition: color .8s;
+    font-weight: bold;
+    color: #7541f8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(300px);
+  }
+
+
+
+/* about me context*/
+#things_i_love > h2{
+    color: #f0f8ff;
+    font-family: 'Kaushan Script', cursive;
+    display: block;
+    justify-content: center;
+    padding-top: 350px;
+    text-align: center;
+    font-size: 2.8rem;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+    text-decoration: none;
+
+}
+
+#frontend_logo{
+    color: #f0f8ff;
+    font-size: 3.0rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+    text-decoration: none;
+    display: flex;
+    background-color: #7541f8;
+    background: linear-gradient(to right bottom, #7541f8, #2b0097);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin: auto auto;
+}
+
+
+.logo-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 300px;
+    max-height: 1000px;
+    margin-top: 70px; 
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 5px 0 10px rgba(6, 3, 77, 0.1);
+    background: linear-gradient(to right bottom, #080424, #050118);
+    opacity: 95%;
+
+
+}
+
+
+.logo-block > h3{
+    color: #7541f8;
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 32px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(91, 8, 207, 0.184);
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.logo-block > p{
+    color: rgb(248, 248, 248);
+    font-family: 'cookie', cursive;
+    font-size: 27px;
+    display: block;
+    text-align: center;
+    word-wrap: auto;
+    letter-spacing: 1.04px;
+    max-width: 500px;
+    max-height: fit-content;
+    margin-top: 20px;
+}
+
+
+#blocks{
+    float: left;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
+#content_me {
+    text-align: center;
+
+}
+
+#content_me > h3{
+    color: #f0f8ff;
+    font-family: 'Kaushan Script', cursive;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px; 
+    text-align: center;
+    font-size: 2.8rem;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+    word-spacing: 2px;
+    letter-spacing: .5px;
+    text-decoration: none;
+    
+}
+
+#introduce_block{
+    display: flex;
+    justify-content:  space-around;
+    margin-left: 60px;
+}
+
+#introduce_block > p{
+    color: aliceblue;
+    font-family: 'cookie', cursive;
+    display: block;
+    justify-content: left;
+    text-align: center;
+    font-size: 29px;
+    text-align: center;
+    word-wrap: auto;
+    letter-spacing: 1px;
+    max-width: 500px;
+    max-height: fit-content;
+    margin-top: 80px;
+
+} 
+
+
+#introduce_block > img{
+    max-width: 650px;
+    height: fit-content;
+    margin-top: 80px;
+}
+/*About me context END*/
+
+
+
+/*Find me on block */
+#find_me_on_block{
+    display: block;
+}
+
+#find_me_on_block > h4{
+    color: #f0f8ff;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 2.8rem;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+    word-spacing: 2px;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+
+#find_me_on_block > p{
+    color: #f0f8ff;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+    text-decoration: none;
+    word-spacing: 2px;
+}
+
+#find_me_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    margin-top: 24px;
+
+    
+}
+
+#social-icons a{
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 28px;
+
+}
+
+#social-icons a:hover{
+    color: #7541F8;
+    text-decoration: none;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(7, 0, 111, 0.529);
+    transform: perspective(300px);
+    
+}
+/*Find me on block END */
+
+
+
+/*Footer block */
+#footer {
+    background-color: #020418;
+    padding: 20px;
+    display: flex;
+    height: 33px;
+    margin-top: 67px;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: -55px;
+    
+    
+  }
+
+#created_paragraph{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+#created_paragraph > p{
+    display: inline;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #f0f8ff;
+    margin-left: 35px;
+    
+}
+
+#copyright > p{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 230px;
+    
+}
+
+
+#footer-social-icons{
+    display: block;
+    float: right;
+    margin-right: 35px;
+}
+
+#footer-social-icons a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+#footer-social-icons a:hover{
+    color: #7541f8;
+    text-decoration: none;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(105, 0, 192, 0.3);
+    transform: perspective(300px);
+}
+
+.tribhuwan{
+    text-decoration: none;
+    color: #7541f8;
+    font-size: 1.7rem;
+    font-weight: 500;
+    
+}
+
+.tribhuwan:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(300px);
+}
+
+#purple{
+    text-decoration: none;
+    color: #7541f8;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#purple:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(300px);
+}
+/*All clear for Desktop */
+
+/*Menu icon*/
+#menu {
+    display: none;
+}
+  
+#menu > i {
+    text-align: right;
+    color: #f0f8ff;
+    font-size: 25px;  
+    transition: 0.4s; 
+    
+}
+
+
+/* Responsive design for mobile devices*/
+@media (max-width: 480px){
+
+    .header {
+        padding-bottom: 2430px;
+
+      }
+
+    #menu {
+        display: block;
+        cursor: pointer;
+        float: right;
+        margin-top: 35px;
+        margin-right: 35px;
+        right: 10px;
+        z-index: 100;
+        position: absolute;
+
+      }
+    
+      #navbar {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+
+      }
+    
+      #navbar.open {
+        display: flex;
+        height: fit-content;
+        position: sticky;
+        z-index: 100;
+        margin-top: 48px;
+        padding-right: 35px;
+        overflow: hidden;
+        box-shadow: 5px 0 10px rgba(6, 3, 77, 0.1);
+        background: linear-gradient(to right bottom, #080424, #050118);
+        opacity: 95%;
+
+      }
+    
+      #navbar.open a {
+        margin: 10px;
+        font-size: 20px;
+        padding: 10px;
+        
+      }
+
+      #nav_container{
+        position: sticky;
+        top: 0;
+
+      }
+
+      #left-heading{
+        font-size: 30px;
+        padding-top: 23px;
+        padding-left: 15px;
+
+      }
+ 
+      #background1 > h1{
+        font-size: 47px;
+        margin-top: 252px;
+        padding-top: 0px;
+
+      }
+      
+      #bottom-topics li a{
+        font-size: 18px;
+        padding-left: 17px; 
+        
+      }
+
+      #student{
+        padding-left: 0px !important; 
+
+      }
+
+      #things_i_love > h2{
+        font-size: 38px;
+        padding-top: 190px;
+
+      }
+
+      #blocks{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .logo-block{
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 250px;
+
+      }
+
+      #content_me > h3{
+        font-size: 28px;
+        margin-top: 80px;
+
+      }
+
+      #introduce_block{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0px !important;
+        align-items: center; 
+
+      }
+
+      #introduce_block > p{
+        max-width: 340px;
+        font-size: 25px;
+        max-height: fit-content;
+        letter-spacing: .8px;
+        margin-top: 55px;
+        word-spacing: 1px;
+
+      }
+
+
+      #introduce_block > img{
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 45px;
+
+      }
+
+      .tribhuwan{
+        font-size: 24px;
+
+      }
+
+      #find_me_on_block > h4{
+        margin-top: 30px;
+        font-size: 40px;
+
+      }
+
+      #find_me_on_block > p{
+        margin-top: -5px;
+
+      }
+
+      #social-icons a{
+        font-size: 24px;
+
+      }
+
+      #footer{
+        display: inline-block;
+        text-align: center;
+        width: 100vw;
+        height: 80px;
+        padding: 0 !important;
+        margin: 0px !important;
+
+      }
+
+      #created_paragraph > p{
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+      }
+
+      #copyright > p{
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 10px;
+      }
+
+      #footer-social-icons{
+        margin: 0px;
+        padding: 0px;
+        float: none;
+        margin-top: 10px;
+
+      }
+
+      #footer-social-icons a{
+        margin: 0px 6px;
+        font-size: 19px;
+      }
+
+      #purple{
+        font-size: 15px;
+
+      }
+
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
