@@ -494,6 +494,25 @@ html, body{
 
 
 /* Responsive design for mobile devices*/
+
+/*Setting for different heights*/
+@media(min-height: 780px) and (max-height: 900px) {
+    #find_me_on_block{
+      padding-top: 40px;
+    
+    }
+    
+
+}
+
+@media(max-height: 730px) {
+    #footer{
+      padding-top: 25px;
+      margin-bottom: -115px !important;
+    }
+}
+
+
 @media (max-width: 480px){
 
     .header {
@@ -651,8 +670,9 @@ html, body{
         text-align: center;
         width: 100vw;
         height: 100px;
-        padding: 0 !important;
-        margin: 0px !important;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: -20px;
 
       }
 
