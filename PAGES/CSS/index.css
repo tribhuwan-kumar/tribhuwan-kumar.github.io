@@ -8,6 +8,10 @@
    
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body{
     height: 100%;
     width: 100%;
@@ -646,6 +650,7 @@ html, body{
 
       .tribhuwan{
         font-size: 24px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 
       }
 
@@ -707,6 +712,8 @@ html, body{
 
       #purple{
         font-size: 15px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+
 
       }
 
