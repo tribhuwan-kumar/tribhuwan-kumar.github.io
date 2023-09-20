@@ -82,7 +82,7 @@ html, body{
 /* Left side heading text END */
 
 
-/*bottom topics under main header*/
+/*Bottom topics under main header*/
 #bottom-topics{
     display: flex;
     justify-content: center;
@@ -121,9 +121,9 @@ html, body{
     text-shadow: 2px 2px 4px rgba(69, 24, 85, 0.219);
 
 }
-/*bottom topics under main header END */
+/*Bottom topics under main header END */
 
-/*nav container*/
+/*Nav container*/
 #nav_container{
     display: block;
     position: -webkit-sticky;
@@ -173,7 +173,7 @@ html, body{
 
 
 
-/* about me context*/
+/* About me context*/
 #things_i_love > h2{
     color: #f0f8ff;
     font-family: 'Kaushan Script', cursive;
