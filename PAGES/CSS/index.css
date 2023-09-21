@@ -367,16 +367,29 @@ html, body{
     
 }
 
+#social-icons{
+    display: flex;
+    flex-direction: row;
+
+}
+
 #social-icons a{
     color: rgb(255, 255, 255);
     margin: 0 10px;
     text-decoration: none;
     font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background: linear-gradient(to right bottom, #7541f8, #2b0097);
 
 }
 
 #social-icons a:hover{
-    color: #7541F8;
+    color: #d3c2ff;
     text-decoration: none;
     transition: color .8s;
     text-shadow: 2px 2px 4px rgba(7, 0, 111, 0.529);
@@ -719,6 +732,111 @@ html, body{
 
       
 }
+
+/* Responsive design for tablets*/
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+     .header {
+       padding-bottom: 2900px;
+      }
+
+      #navbar{
+        padding-top: 25px;
+        padding-right: 15px;
+      }
+
+      #navbar a{
+        font-size: 1.5rem;
+        padding: 8px;
+      }
+
+      #left-heading{
+        font-size: 2rem;
+      }
+
+      #left-heading{
+        padding-top: 20px;
+        padding-left: 18px;
+      }
+
+      #introduce_block {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0px !important;
+        align-items: center;
+      }
+
+      #introduce_block > p{
+        max-width: 700px;
+        font-size: 2.3rem;
+      }
+
+      .tribhuwan{
+        font-size: 2.3rem;
+      }
+
+      .logo-block > h3{
+        font-size: 2.7rem;
+      }
+
+      .logo-block > p{
+        font-size: 2.2rem;
+      }
+
+      #blocks{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #find_me_on_block > h4{
+        margin-top: 70px;
+      }
+
+      #footer{
+        display: inline-block;
+        text-align: center;
+        width: 100vw;
+        height: 100px;
+        padding: 0px;
+        padding-top: 0px;
+        margin: 0px;
+      }
+
+      #footer-social-icons {
+        margin: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        padding-bottom: 0px;
+        float: none;
+        margin-top: 10px;
+        padding-bottom: 20px;
+      }
+
+      #footer-social-icons a {
+        margin: 0px 6px;
+        font-size: 20px;
+      }
+
+      #copyright > p{
+          font-size: 18px;
+          margin: 0px;
+          margin-top: 0px;
+          padding: 0px;
+          margin-top: 10px;
+      }
+
+      #created_paragraph > p{
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+}
+
 
 
 
