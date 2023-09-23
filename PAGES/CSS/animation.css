@@ -8,7 +8,7 @@
   background: -ms-linear-gradient(left top, #000000, #000000);
   background: linear-gradient(to right bottom, #0f0c24, #030110);
 }
-#background1 {
+#background {
   width: 100%;
   height: 100%;
   position: absolute;
