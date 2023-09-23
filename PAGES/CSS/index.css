@@ -297,8 +297,6 @@ html, body{
     color: aliceblue;
     font-family: 'cookie', cursive;
     display: block;
-    justify-content: left;
-    text-align: center;
     font-size: 29px;
     text-align: center;
     word-wrap: auto;
@@ -514,7 +512,7 @@ html, body{
 @media (max-width: 480px){
 
     .header {
-        padding-bottom: 2520px;
+        padding-bottom: 2600px;
 
       }
 
