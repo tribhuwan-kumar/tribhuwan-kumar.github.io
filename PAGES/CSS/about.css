@@ -9,10 +9,6 @@
    
   }
 
-html {
-    scroll-behavior: smooth;
-
-  }
 
 html, body{
     height: 100%;
@@ -21,6 +17,7 @@ html, body{
     padding: 0px;
     overflow-x: hidden;
     background-color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
     
   }
 
@@ -34,24 +31,23 @@ html, body{
     height: 100vh;
     width: 100vw;
     z-index: 100;
+
   }
 
 #background > h1{
     color: aliceblue;
     font-family: 'Kaushan Script', cursive;
     display: block;
-    justify-content: center;
     padding-top: 165px;
     text-align: center;
     font-size: 4rem;
     text-shadow: 2px 2px 4px rgba(69, 24, 85, 0.219);
-    z-index: 100;
+    
   }
 
 /*Navbar*/
 #nav_container{
     display: block;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     background: rgba(8, 9, 31, 0.48);
@@ -59,16 +55,15 @@ html, body{
     height: 80px;
     width: auto;
     z-index: 100;
+
   }
 
 #navbar{
     display: block;
     float: right;
-    position: sticky;
-    top: 0;
-    z-index: 100;
     padding-top: 15px;
     padding-right: 50px;
+
   }
 
 #navbar a{
@@ -83,6 +78,7 @@ html, body{
     font-weight: bold; 
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+
   }
   
 #navbar a:hover {
@@ -91,6 +87,7 @@ html, body{
     color: #7541f8;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     transform: perspective(300px);
+
   }
 
 /* Left side heading text */
@@ -106,9 +103,7 @@ html, body{
     text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
     text-decoration: none;
     display: inline-block;
-    position: sticky;
-    top: 0;
-  
+    
   }
   
 #left-heading:hover{
@@ -123,12 +118,14 @@ html, body{
 /*know who i'm block*/
 #content_me {
     text-align: center;
+
   }
   
 #introduce_block{
     display: flex;
     justify-content:  space-around;
     margin-left: 60px;
+
   }
   
 #introduce_block > p{
@@ -144,12 +141,14 @@ html, body{
     margin-top: 80px;
     backdrop-filter: blur(0.11rem);
     position: relative;
+
   } 
 
 #introduce_block > img{
     max-width: 535px;
     height: fit-content;
     margin-top: 85px;
+
   }
 /*know who i'm block end*/
 
@@ -160,6 +159,7 @@ html, body{
     margin-top: 20px;
     left: -165px;
     backdrop-filter: blur(0.11rem);
+
   }
 
 #quote > h4{
@@ -170,6 +170,7 @@ html, body{
     display: inline-block;
     backdrop-filter: blur(0.11rem);
     text-align: left;
+
   }
 
 #name{
@@ -191,12 +192,14 @@ html, body{
     justify-content: center;
     align-items: center;
     margin-top: 85px;
+
   }
 
 #icon_table{
     display: block;
     align-items: center;
     margin-top: 35px;
+
   }
 
 
@@ -216,15 +219,18 @@ html, body{
     padding: 15px 80px;
     backdrop-filter: blur(0.11rem);
     transition: all 0.5s ease;
+
   }
 
 .icons_container a:hover{
     box-shadow: 5px 0 10px rgba(4, 0, 122, 0.212);
+
   }
 
 #tool_container{
     display: flex;
     justify-content: center;
+
   }
 
 #tool_container a{
@@ -237,17 +243,20 @@ html, body{
     padding: 15px 80px;
     backdrop-filter: blur(0.11rem);
     transition: all 0.3s ease;
+
   }
 
 #contribution_chart{
     display: flex;
     justify-content: center;
     margin-top: 40px;
+
   }
 
 #contribution_chart img{
     width: 1250px;
     max-height: fit-content;
+
   }
 /*Tech stack block end*/
 
@@ -263,12 +272,12 @@ html, body{
     width: 100%;
     bottom: 0;
     margin-bottom: -55px;
+
   }
   
 #created_paragraph{
     display: inline;
-    align-items: center;
-    justify-content: center;
+    
   }
   
 #created_paragraph > p{
@@ -287,12 +296,14 @@ html, body{
     font-size: 17px;
     font-weight: 400;
     margin-right: 230px;
+
   }
   
 #footer-social-icons{
     display: block;
     float: right;
     margin-right: 35px;
+
   }
   
 #footer-social-icons a{
@@ -328,6 +339,7 @@ html, body{
     transition: color .8s;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     transform: perspective(300px);
+
   }
 
 #purple {
@@ -335,6 +347,7 @@ html, body{
     color: #7541f8;
     font-size: 18px;
     font-weight: 500;
+
   }
 
 #purple:hover{
@@ -343,12 +356,14 @@ html, body{
     transition: color .8s;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     transform: perspective(300px);
+
   }
 
 
 /*Menu*/
 #menu {
     display: none;
+
   }
 
 #menu > i {
@@ -356,6 +371,7 @@ html, body{
     color: #f0f8ff;
     font-size: 25px;  
     transition: 0.4s;
+
   }
 
 /* Responsive design for mobile devices*/
@@ -463,46 +479,51 @@ html, body{
       display: inline-block;
       position: inherit;
       margin-top: 50px;
+
     }
 
     #quote > h4{
      font-size: 2.2rem; 
+
     }
 
     #name{
      font-size: 1.4rem; 
+
     }
 
     .tech_stack{
       font-size: 2.5rem;
+
     }
 
     #contribution_chart img{
       width: 100vw;
+
     }
 
     #icon_table{
       display: flex;
       justify-content: center;
+
     }
 
     .icons_container{
       flex-direction: column;
       text-align: center;
+
     }
 
     .icons_container a{
       margin-bottom: 15px;
       height: fit-content;
       padding: 15px 35px;
+
     }
 
     #tool_container{
-      flex-direction: column;
-      justify-content: center;
       text-align: center;
-      display: inline-block;
-      align-items: center;
+      display: inline-block; 
       margin-top: 20px;
     }
 
