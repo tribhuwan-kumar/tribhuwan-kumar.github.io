@@ -1,0 +1,572 @@
+/*     Made by @tribhuwan-kumar    */
+/*    17th of September 2023       */
+/*        MIT License              */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+   
+  }
+
+html {
+    scroll-behavior: smooth;
+
+  }
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    
+  }
+
+.header{
+    padding-bottom: 1850px;
+     
+  }
+
+#background{
+    background: scroll;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+  }
+
+#background > h1{
+    color: aliceblue;
+    font-family: 'Kaushan Script', cursive;
+    display: block;
+    justify-content: center;
+    padding-top: 165px;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(69, 24, 85, 0.219);
+    z-index: 100;
+  }
+
+/*Navbar*/
+#nav_container{
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgba(8, 9, 31, 0.48);
+    backdrop-filter: blur(1px);
+    height: 80px;
+    width: auto;
+    z-index: 100;
+  }
+
+#navbar{
+    display: block;
+    float: right;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding-top: 15px;
+    padding-right: 50px;
+  }
+
+#navbar a{
+    float: left;
+    display: inline;
+    color: white;
+    text-align: right;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6rem;
+    font-weight: bold; 
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+  }
+  
+#navbar a:hover {
+    transition: color .8s;
+    font-weight: bold;
+    color: #7541f8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(300px);
+  }
+
+/* Left side heading text */
+#left-heading{
+    color: #ffffff;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 15px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 2.5rem;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+    text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
+    text-decoration: none;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+  
+  }
+  
+#left-heading:hover{
+    color: #7541f8;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(300px);
+
+  }
+/* Left side heading text END */
+
+/*know who i'm block*/
+#content_me {
+    text-align: center;
+  }
+  
+#introduce_block{
+    display: flex;
+    justify-content:  space-around;
+    margin-left: 60px;
+  }
+  
+#introduce_block > p{
+    color: aliceblue;
+    font-family: 'cookie', cursive;
+    display: block;
+    font-size: 29px;
+    text-align: left;
+    word-wrap: auto;
+    letter-spacing: 1.2px;
+    max-width: 650px;
+    max-height: fit-content;
+    margin-top: 80px;
+    backdrop-filter: blur(0.11rem);
+    position: relative;
+  } 
+
+#introduce_block > img{
+    max-width: 535px;
+    height: fit-content;
+    margin-top: 85px;
+  }
+/*know who i'm block end*/
+
+/*Quote block*/
+#quote{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    left: -165px;
+    backdrop-filter: blur(0.11rem);
+  }
+
+#quote > h4{
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 400;
+    display: inline-block;
+    backdrop-filter: blur(0.11rem);
+    text-align: left;
+  }
+
+#name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: aliceblue;
+    display: inline-block;
+    
+  }
+/*Quote block end*/
+
+/*Tech stack block*/
+.tech_stack{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+  }
+
+#icon_table{
+    display: block;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+
+.icons_container{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.icons_container a{
+    color: aliceblue;
+    font-size: 70px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    border: 4px solid #7541F847;
+    border-radius: 8px;
+    padding: 15px 80px;
+    backdrop-filter: blur(0.11rem);
+    transition: all 0.5s ease;
+  }
+
+.icons_container a:hover{
+    box-shadow: 5px 0 10px rgba(4, 0, 122, 0.212);
+  }
+
+#tool_container{
+    display: flex;
+    justify-content: center;
+  }
+
+#tool_container a{
+    color: aliceblue;
+    font-size: 70px;
+    margin: 0 10px;
+    margin-top: 30px;
+    border: 4px solid #7541F847;
+    border-radius: 8px;
+    padding: 15px 80px;
+    backdrop-filter: blur(0.11rem);
+    transition: all 0.3s ease;
+  }
+
+#contribution_chart{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+#contribution_chart img{
+    width: 1250px;
+    max-height: fit-content;
+  }
+/*Tech stack block end*/
+
+/*Footer block */
+#footer {
+    background-color: #020418;
+    padding: 20px;
+    display: flex;
+    height: 33px;
+    margin-top: 67px;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: -55px;
+  }
+  
+#created_paragraph{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#created_paragraph > p{
+    display: inline;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #f0f8ff;
+    margin-left: 35px;
+    
+  }
+  
+#copyright > p{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 230px;
+  }
+  
+#footer-social-icons{
+    display: block;
+    float: right;
+    margin-right: 35px;
+  }
+  
+#footer-social-icons a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 22px;
+
+  }
+  
+  
+#footer-social-icons a:hover{
+    color: #7541f8;
+    text-decoration: none;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(105, 0, 192, 0.3);
+    transform: perspective(300px);
+
+  }
+/*Footer block end*/
+
+.tribhuwan{
+    text-decoration: none;
+    color: #7541f8;
+    font-weight: 400;
+    
+  }
+  
+
+.tribhuwan:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(300px);
+  }
+
+#purple {
+    text-decoration: none;
+    color: #7541f8;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+#purple:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color .8s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(300px);
+  }
+
+
+/*Menu*/
+#menu {
+    display: none;
+  }
+
+#menu > i {
+    text-align: right;
+    color: #f0f8ff;
+    font-size: 25px;  
+    transition: 0.4s;
+  }
+
+/* Responsive design for mobile devices*/
+@media (max-width: 768px){
+
+  .header {
+      padding-bottom: 2750px;
+
+    }
+
+  #menu {
+      display: block;
+      cursor: pointer;
+      float: right;
+      margin-top: 35px;
+      margin-right: 35px;
+      right: 10px;
+      z-index: 100;
+      position: absolute;
+
+    }
+  
+    #navbar {
+      display: none;
+      flex-direction: column;
+      text-align: center;
+
+    }
+  
+    #navbar.open {
+      display: flex;
+      height: fit-content;
+      position: sticky;
+      z-index: 100;
+      margin-top: 48px;
+      padding-right: 35px;
+      overflow: hidden;
+      box-shadow: 5px 0 10px rgba(6, 3, 77, 0.1);
+      background: linear-gradient(to right bottom, #080424, #050118);
+      opacity: 95%;
+
+    }
+  
+    #navbar.open a {
+      margin: 10px;
+      font-size: 20px;
+      padding: 10px;
+      
+    }
+
+    #nav_container{
+      position: sticky;
+      top: 0;
+
+    }
+
+    #left-heading{
+      font-size: 30px;
+      padding-top: 23px;
+      padding-left: 15px;
+
+    }
+
+    #background > h1{
+      font-size: 47px;
+      margin-top: 245px;
+      padding-top: 0px;
+
+    }
+
+    #content_me > h3{
+      font-size: 28px;
+      margin-top: 80px;
+
+    }
+
+    #introduce_block{
+      display: flex;
+      flex-direction: column-reverse;
+      margin-left: 0px !important;
+      align-items: center; 
+      
+    }
+
+    #introduce_block > p{
+      max-width: 340px;
+      font-size: 26px;
+      max-height: fit-content;
+      letter-spacing: .8px;
+      margin-top: 55px;
+      word-spacing: 1px;
+      text-align: center;
+
+    }
+
+
+    #introduce_block > img{
+      max-width: 300px;
+      max-height: 300px;
+      margin-top: 45px;
+
+    }
+
+    #quote {
+      display: inline-block;
+      position: inherit;
+      margin-top: 50px;
+    }
+
+    #quote > h4{
+     font-size: 2.2rem; 
+    }
+
+    #name{
+     font-size: 1.4rem; 
+    }
+
+    .tech_stack{
+      font-size: 2.5rem;
+    }
+
+    #contribution_chart img{
+      width: 100vw;
+    }
+
+    #icon_table{
+      display: flex;
+      justify-content: center;
+    }
+
+    .icons_container{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .icons_container a{
+      margin-bottom: 15px;
+      height: fit-content;
+      padding: 15px 35px;
+    }
+
+    #tool_container{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      display: inline-block;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    #tool_container a{
+      margin-bottom: 15px;
+      height: fit-content;
+      width: max-content;
+      padding: 15px 35px;
+      display: inline-block;
+      margin-top: 10px;
+      
+    }
+    
+    #footer{
+      display: inline-block;
+      text-align: center;
+      width: 100vw;
+      height: 100px;
+      padding: 0px;
+      margin: 0px;
+      margin-bottom: -20px;
+
+    }
+
+    #created_paragraph > p{
+      font-size: 14px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    #copyright > p{
+      font-size: 15px;
+      margin: 0px;
+      padding: 0px;
+      margin-top: 10px;
+    }
+
+    #footer-social-icons{
+      margin: 0px;
+      padding: 0px;
+      float: none;
+      margin-top: 10px;
+      padding-bottom: 20px;
+
+    }
+
+    #footer-social-icons a{
+      margin: 0px 6px;
+      font-size: 19px;
+    }
+    
+    #purple{
+      font-size: 15px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .tribhuwan{
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+
+    }
+
+}
+
+  
