@@ -442,7 +442,6 @@ html, body{
 .tribhuwan{
     text-decoration: none;
     color: #7541f8;
-    font-size: 1.7rem;
     font-weight: 500;
  
 }
@@ -473,7 +472,7 @@ html, body{
 
 
 /* Responsive design for mobile devices*/
-@media (max-width: 480px){
+@media (max-width: 767px){
 
     .header {
         padding-bottom: 2600px;
@@ -588,7 +587,7 @@ html, body{
 
       #introduce_block > p{
         max-width: 340px;
-        font-size: 25px;
+        font-size: 26px;
         max-height: fit-content;
         letter-spacing: .8px;
         margin-top: 55px;
@@ -605,7 +604,6 @@ html, body{
       }
 
       .tribhuwan{
-        font-size: 24px;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 
       }
@@ -677,7 +675,7 @@ html, body{
 }
 
 /* Responsive design for tablets*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
      .header {
        padding-bottom: 2975px;
@@ -711,11 +709,7 @@ html, body{
 
       #introduce_block > p{
         max-width: 630px;
-        font-size: 1.7rem;
-      }
-
-      .tribhuwan{
-        font-size: 2.3rem;
+        font-size: 1.9rem;
       }
 
       .logo-block > h3{
@@ -778,50 +772,4 @@ html, body{
       }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

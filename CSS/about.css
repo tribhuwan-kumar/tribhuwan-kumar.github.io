@@ -576,4 +576,128 @@ html, body{
 
 }
 
+
+/* Responsive design for tablets*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .header {
+    padding-bottom: 2200px;
+
+  }
+
+  #navbar{
+    padding-top: 25px;
+    padding-right: 15px;
+
+    }
+
+  #navbar a{
+    font-size: 1.5rem;
+    padding: 8px;
+
+    }
+
+  #left-heading{
+    font-size: 2rem;
+
+  }
+
+  #left-heading{
+    padding-top: 20px;
+    padding-left: 18px;
+
+  }
+
+  #background > h1{
+      font-size: 3rem;
+
+  }
+
+  #introduce_block {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0px !important;
+    align-items: center;
+
+  }
+
+  #introduce_block > p{
+    max-width: 650px;
+    font-size: 1.9rem;
+
+  }
+
+  #quote {
+    display: inline-block;
+    position: inherit;
+    margin-top: 50px;
+
+  }
+
+  #quote > h4{
+  font-size: 2.4rem; 
+
+  }
+
+  #name{
+  font-size: 1.5rem; 
+
+  }
+
+  .icons_container a{
+    padding: 20px 50px;
+
+  }
+
+  #tool_container a{
+    padding: 15px 60px;
+
+  }
+
+  #footer{
+    display: inline-block;
+    text-align: center;
+    width: 100vw;
+    height: 100px;
+    padding: 0px;
+    padding-top: 0px;
+    margin: 0px;
+
+  }
+
+  #footer-social-icons {
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    float: none;
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+  }
+
+  #footer-social-icons a {
+    margin: 0px 6px;
+    font-size: 20px;
+
+  }
+
+  #copyright > p{
+      font-size: 18px;
+      margin: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      margin-top: 10px;
+
+  }
+
+  #created_paragraph > p{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+}
   
