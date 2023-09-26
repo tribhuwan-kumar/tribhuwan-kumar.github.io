@@ -9,7 +9,6 @@
    
   }
 
-
 html, body{
     height: 100%;
     width: 100%;
@@ -90,6 +89,20 @@ html, body{
 
   }
 
+/*Menu*/
+#menu {
+  display: none;
+
+}
+
+#menu > i {
+  text-align: right;
+  color: #f0f8ff;
+  font-size: 25px;  
+  transition: 0.4s;
+
+}
+
 /* Left side heading text */
 #left-heading{
     color: #ffffff;
@@ -113,9 +126,8 @@ html, body{
     transform: perspective(300px);
 
   }
-/* Left side heading text END */
 
-/*know who i'm block*/
+/*About me block*/
 #content_me {
     text-align: center;
 
@@ -149,7 +161,6 @@ html, body{
     margin-top: 85px;
 
   }
-/*know who i'm block end*/
 
 /*Quote block*/
 #quote{
@@ -178,7 +189,6 @@ html, body{
     display: inline-block;
     
   }
-/*Quote block end*/
 
 /*Tech stack block*/
 .tech_stack{
@@ -194,11 +204,9 @@ html, body{
 
 #icon_table{
     display: block;
-    align-items: center;
     margin-top: 35px;
 
   }
-
 
 .icons_container{
     display: flex;
@@ -253,7 +261,6 @@ html, body{
     max-height: fit-content;
 
   }
-/*Tech stack block end*/
 
 /*Footer block */
 #footer {
@@ -318,7 +325,6 @@ html, body{
     transform: perspective(300px);
 
   }
-/*Footer block end*/
 
 .tribhuwan{
     text-decoration: none;
@@ -326,7 +332,6 @@ html, body{
     font-weight: 400;
     
   }
-  
 
 .tribhuwan:hover{
     text-decoration: none;
@@ -354,20 +359,6 @@ html, body{
 
   }
 
-
-/*Menu*/
-#menu {
-    display: none;
-
-  }
-
-#menu > i {
-    text-align: right;
-    color: #f0f8ff;
-    font-size: 25px;  
-    transition: 0.4s;
-
-  }
 
 /* Responsive design for mobile devices*/
 @media (max-width: 768px){

@@ -8,7 +8,6 @@
    
 }
 
-
 html, body{
     height: 100%;
     width: 100%;
@@ -22,9 +21,7 @@ html, body{
 .header{
     padding-bottom: 1850px;
     
-
 }
-
 
 #background{
     background: scroll;
@@ -44,11 +41,7 @@ html, body{
     font-size: 4rem;
     text-shadow: 2px 2px 4px rgba(69, 24, 85, 0.219);
 
-    
 }
-/* Main heading text END */
-
-
 
 /* Left side heading text */
 #left-heading{
@@ -73,8 +66,6 @@ html, body{
     transform: perspective(300px);
 
 }
-/* Left side heading text END */
-
 
 /*Bottom topics under main header*/
 #bottom-topics{
@@ -82,7 +73,6 @@ html, body{
     justify-content: center;
     align-items: center;
 }
-
 
 #bottom-topics li{
     text-decoration: none;
@@ -92,9 +82,7 @@ html, body{
     align-items: center;
     padding-top: 10px;
     
-    
 }
-
 
 #bottom-topics li a{
     color: rgb(255, 255, 255);
@@ -105,6 +93,7 @@ html, body{
     font-size: 24px;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
+
 }
 
 #bottom-topics li a:hover{
@@ -115,7 +104,6 @@ html, body{
     text-shadow: 2px 2px 4px rgba(69, 24, 85, 0.219);
 
 }
-/*Bottom topics under main header END */
 
 /*Nav container*/
 #nav_container{
@@ -159,11 +147,23 @@ html, body{
     color: #7541f8;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     transform: perspective(300px);
-  }
 
+}
 
+/*Menu icon*/
+#menu {
+    display: none;
+}
 
-/* About me context*/
+#menu > i {
+    text-align: right;
+    color: #f0f8ff;
+    font-size: 25px;  
+    transition: 0.4s; 
+  
+}
+
+/* About me content*/
 #things_i_love > h2{
     color: #f0f8ff;
     font-family: 'Kaushan Script', cursive;
@@ -194,8 +194,8 @@ html, body{
     width: 75px;
     height: 75px;
     margin: auto auto;
-}
 
+}
 
 .logo-block{
     display: flex;
@@ -210,9 +210,7 @@ html, body{
     background: linear-gradient(to right bottom, #080424, #050118);
     opacity: 95%;
 
-
 }
-
 
 .logo-block > h3{
     color: #7541f8;
@@ -239,17 +237,16 @@ html, body{
     max-width: 500px;
     max-height: fit-content;
     margin-top: 20px;
-}
 
+}
 
 #blocks{
     float: left;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+
 }
-
-
 
 #content_me {
     text-align: center;
@@ -275,6 +272,7 @@ html, body{
     display: flex;
     justify-content:  space-around;
     margin-left: 60px;
+
 }
 
 #introduce_block > p{
@@ -291,19 +289,17 @@ html, body{
 
 } 
 
-
 #introduce_block > img{
     max-width: 650px;
     height: fit-content;
     margin-top: 80px;
+
 }
-/*About me context END*/
-
-
 
 /*Find me on block */
 #find_me_on_block{
     display: block;
+
 }
 
 #find_me_on_block > h4{
@@ -320,6 +316,7 @@ html, body{
     word-spacing: 2px;
     letter-spacing: .5px;
     text-decoration: none;
+
 }
 
 #find_me_on_block > p{
@@ -336,6 +333,7 @@ html, body{
     text-shadow: 2px 2px 4px rgba(106, 106, 106, 0.3);
     text-decoration: none;
     word-spacing: 2px;
+
 }
 
 #find_me_icons{
@@ -345,7 +343,6 @@ html, body{
     text-decoration: none;
     position: relative;
     margin-top: 24px;
-
     
 }
 
@@ -378,9 +375,6 @@ html, body{
     transform: perspective(300px);
     
 }
-/*Find me on block END */
-
-
 
 /*Footer block */
 #footer {
@@ -395,8 +389,7 @@ html, body{
     bottom: 0;
     margin-bottom: -55px;
     
-    
-  }
+}
 
 #created_paragraph{
     display: inline;
@@ -422,11 +415,11 @@ html, body{
     
 }
 
-
 #footer-social-icons{
     display: block;
     float: right;
     margin-right: 35px;
+
 }
 
 #footer-social-icons a{
@@ -434,8 +427,8 @@ html, body{
     margin: 0 10px;
     text-decoration: none;
     font-size: 22px;
-}
 
+}
 
 #footer-social-icons a:hover{
     color: #7541f8;
@@ -443,6 +436,7 @@ html, body{
     transition: color .8s;
     text-shadow: 2px 2px 4px rgba(105, 0, 192, 0.3);
     transform: perspective(300px);
+
 }
 
 .tribhuwan{
@@ -450,7 +444,7 @@ html, body{
     color: #7541f8;
     font-size: 1.7rem;
     font-weight: 500;
-    
+ 
 }
 
 .tribhuwan:hover{
@@ -476,19 +470,6 @@ html, body{
     transform: perspective(300px);
 }
 /*All clear for Desktop */
-
-/*Menu icon*/
-#menu {
-    display: none;
-}
-  
-#menu > i {
-    text-align: right;
-    color: #f0f8ff;
-    font-size: 25px;  
-    transition: 0.4s; 
-    
-}
 
 
 /* Responsive design for mobile devices*/
