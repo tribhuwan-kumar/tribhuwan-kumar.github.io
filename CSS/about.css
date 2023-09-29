@@ -89,17 +89,32 @@ html, body{
 
   }
 
-/*Menu*/
-#menu {
+/*Menu icon*/
+.menu_icon {
   display: none;
+}
+
+.menu_icon div{
+width: 25px;
+height: 3px;
+background: aliceblue;
+margin: 5px;
+transition:all 0.3s ease;
 
 }
 
-#menu > i {
-  text-align: right;
-  color: #f0f8ff;
-  font-size: 25px;  
-  transition: 0.4s;
+.menu_icon.active .line:nth-child(1) {
+transform: rotate(-45deg) translate(-5px, 6px);
+
+}
+
+.menu_icon.active .line:nth-child(2) {
+opacity: 0;
+
+}
+
+.menu_icon.active .line:nth-child(3) {
+transform: rotate(45deg) translate(-5px, -6px);
 
 }
 
@@ -368,12 +383,12 @@ html, body{
 
     }
 
-  #menu {
+  .menu_icon {
       display: block;
       cursor: pointer;
       float: right;
-      margin-top: 35px;
-      margin-right: 35px;
+      padding-top: 35px;
+      padding-right: 35px;
       right: 10px;
       z-index: 100;
       position: absolute;
