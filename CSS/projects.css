@@ -333,8 +333,10 @@ transform: rotate(45deg) translate(-5px, -6px);
       display: block;
       cursor: pointer;
       float: right;
-      padding-top: 35px;
-      padding-right: 35px;
+      padding-top: 10px;
+      padding-right: 10px;
+      margin-top: 25px;
+      margin-right: 25px;
       right: 10px;
       z-index: 100;
       position: absolute;
@@ -473,9 +475,10 @@ transform: rotate(45deg) translate(-5px, -6px);
    }
 
    #left-heading{
-     font-size: 2rem;
-     padding-top: 20px;
-     padding-left: 18px;
+    font-size: 30px;
+    margin-top: 26px;
+    margin-left: 20px;
+    padding: 0px;
 
    }
 
