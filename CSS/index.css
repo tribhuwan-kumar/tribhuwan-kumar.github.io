@@ -20,7 +20,7 @@ html, body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background: black;
+    background: rgb(4, 0, 26) !important;
     scroll-behavior: smooth;
     cursor: default;
 
