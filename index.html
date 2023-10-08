@@ -4,107 +4,112 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Tab Tittle -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribhuwan | Portfolio</title>
 
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/animation.css">
     <link rel="icon" href="./ASSETS/favicon.ico" type="image/x-icon">
 
-    <!-- Fonts-->
-    <style>@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Karla&family=Kaushan+Script&display=swap');</style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- FONTS -->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Raleway:wght@300;400;500;600;700&display=swap');</style>
 
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-  <body>
-    <div class="header">
-          <div id="background">
-                   <div id="nav_container" >
-                        <nav id="navbar">
-                          <a href="./about.html"><i class="fas fa-rocket"></i> About me</a>
-                          <a href="./projects.html"><i class="fas fa-laptop-code"></i> Projects</a>
-                          <a href="https://www.fiverr.com/tribhuwan_kumar" target="_blank"><i class="fas fa-wrench"></i> Services</a>
-                          <a href="mailto:tribhuwankumar735275@gmail.com"><i class="fas fa-envelope"></i> Contact me</a>
+<body>
+    <div class="container-fluid position-relative pe-0 ps-0 me-0 ms-0">
+                <div id="background">
+                    <div id="nav_container" class="d-block sticky-top float-end">
+                        <a href="index.html" id="left_heading" class="col-2 d-inline-block"> Tribhuwan</a>
+                        <nav id="navbar" class="float-end text-start  d-none d-md-block">
+                            <a href="about.html"><i class="fas fa-rocket"></i> About me</a>
+                            <a href="projects.html"><i class="fas fa-laptop-code"></i> Projects</a>
+                            <a href="https://www.fiverr.com/tribhuwan_kumar" target="_blank"><i class="fas fa-wrench"></i> Services</a>
+                            <a href="mailto:tribhuwankumar735275@gmail.com"><i class="fas fa-envelope"></i> Contact me</a>
                         </nav>
-                        <div class="menu_icon">
-                          <div class="line"></div>
-                          <div class="line"></div>
-                          <div class="line"></div>
+                        <div class="menu_icon d-md-none float-md-end">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
                         </div>
-                                <a href="/index.html" id="left-heading"> Tribhuwan</a>
                     </div>
-                                                 <h1> Tribhuwan Kumar</h1>
-                    <div id="bottom-topics">
+                    <h1 class="text-center d-block"> Tribhuwan Kumar</h1>
+                    <div id="bottom_topics" class="text-center">
                         <li>
-                          <a href="./about.html" id="student" ><i class="fas fa-graduation-cap"></i> Student</a>
+                          <a href="about.html" id="student" ><i class="fas fa-graduation-cap"></i> Student</a>
                           <a href="https://www.github.com/tribhuwan-kumar" target="_blank"><i class="fas fa-code"></i> Developer</a>
                           <a href="#"> <i class="fas fa-camera"></i> Photographer</a>
                         </li>
                     </div>
-
+                      
+           
                     <div id="things_i_love">
-                                            <h2>Things I love</h2>
-                                  <div id="blocks">
-                                            <div class="logo-block">
-                                              <i class="fas fa-code" id="frontend_logo"></i>
-                                              <h3>FrontEnd</h3>
-                                              <p>I love front end and love to work with Bootstrap and React as well as pure HTML & CSS.</p>
-                                            </div>
-                                            <div class="logo-block">
-                                              <i class="fab fa-python" id="frontend_logo"></i>
-                                              <h3>Python</h3>
-                                              <p>I just love Python, I can’t even express how much I love Python with just a few lines.</p>
-                                            </div>
-                                            <div class="logo-block">
-                                              <i class="fas fa-star" id="frontend_logo"></i>
-                                              <h3>Creative Coding</h3>
-                                              <p>Creative Coding combines programming with artistic expression which allow me to create visually interactvie websites.</p>
-                                            </div>
-                                 </div>
+                                        <h2 class="text-center">Things I <b class="highlight_text">love!</b></h2>
 
-                                 <div id="content_me">
-                                                      <h3> Let me introduce myself!!</h3>
-                                      <div id="introduce_block">
-                                            <p> Hi, I'm <b class="tribhuwan">Tribhuwan</b> & I have been programming for the past couple of years and I love to do it. I have experience in a wide variety of Programming languages, such as <b class="tribhuwan">JavaScript,</b> <b class="tribhuwan">HTML, CSS, C</b> and <b class="tribhuwan">Python,</b> as well as a few others. I have a passion for problem solving and enjoy the challenge of tackling complex-issues. <br> <br> I have a great deal of experience in developing <b class="tribhuwan"> web applications,</b> specifically on the<b class="tribhuwan"> frontend.</b><br><br>I am an avid learner, and I am always looking to improve my skills and increase my knowledge. I am a strong believer in collaboration and always enjoy working with other <b class="tribhuwan">developers</b> to come up with <b class="tribhuwan">innovative solutions.</b> <br><br></p>
-                                            <img src="./ASSETS/An illustartor.png" alt="Profile Image">
-                                      </div>
-                                 </div>
-                    </div>
+                                <div class="d-flex justify-content-evenly w-100 flex-wrap">
+                                    <div class="logo_block d-flex flex-column">
+                                                <i class="fas fa-code d-flex text-center justify-content-center align-items-center" id="frontend_logo"></i>
+                                                            <h3 class="text-center d-inline">FrontEnd</h3>
+                                         <p>I love front end and love to work with Bootstrap and React as well as pure HTML & CSS.</p>
+                                    </div>
+                                    <div class="logo_block d-flex flex-column">
+                                                <i class="fab fa-python d-flex text-center justify-content-center align-items-center" id="frontend_logo"></i>
+                                                            <h3 class="text-center d-inline">Python</h3>
+                                         <p>I just love Python, I can’t even express how much I love Python with just a few lines.</p>
+                                    </div>
+                                    <div class="logo_block d-flex flex-column">
+                                                <i class="fas fa-star d-flex text-center justify-content-center align-items-center" id="frontend_logo"></i>
+                                                            <h3 class="text-center d-inline">Creative Coding</h3>
+                                        <p>Creative Coding combines programming with artistic expression which allow me to create visually interactvie websites.</p>
+                                    </div>
+                               </div>
 
-                   <div id="find_me_on_block">
-                                                    <h4>Find Me On </h4>
-                                    <p>Feel free to<b class="tribhuwan">&nbsp;connect&nbsp;</b>with me</p>
-                        <div id="find_me_icons">
-                          <div id="social-icons">
+                               <div id="content_me">
+                                                   <h3 class="text-center">My <b class="highlight_text">introduction!!</b> </h3>
+                                    <div id="introduce_block" class="d-flex justify-content-around ms-auto me-auto">              
+<pre class="d-inline-block mt-auto mb-auto overflow-visible">
+1. const  <b class="highlight_text">Developer</b> = {
+2. name: "<b class="highlight_text">Tribhuwan Kumar</b>",
+3. passion: "<b class="highlight_text">Coding and Problem-solving</b>",
+4. mission: "<b class="highlight_text">To craft robust, user-friendly web apps</b>",
+   };
+</pre>
+                                         <img src="./ASSETS/An illustartor.png" alt="Profile Image" class="mt-auto mb-auto"> 
+                                    </div>
+                              </div>
+                          </div>
+
+                          <div id="find_me_on_block">
+                                                                             <h4 class="text-center">Find <b class="highlight_text"> Me </b> On </h4>
+                                                      <p class="text-center">Feel free to<b class="highlight_text">&nbsp;connect&nbsp;</b>with me</p>
+                                <div id="social_icons" class="d-flex justify-content-center">
+                                    <a href="https://www.github.com/tribhuwan-kumar" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.instagram.com/tribhuwan.1" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://twitter.com/tribhuwan_1" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/tribhuwan-kumar-7b6049289/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+                                </div>
+                          </div>
+                        
+                          
+                  <footer class="d-flex position-absolute bottom-0 align-items-center">
+                         <p class="d-inline mb-0 ms-5 col-3" id="created_text">Created by <a href="https://github.com/tribhuwan-kumar/Portfolio" target="_blank"> Tribhuwan</a> | Website  <a href="https://github.com/tribhuwan-kumar/Portfolio" target="_blank">Source Code</a></p>
+                                                 <p class="d-inline mb-0 col-5 text-center" id="copyright_text"> Copyright &copy; 2023</p>
+                        <div id="footer-social-icons" class="col-4 text-center me-md-4">
                             <a href="https://www.github.com/tribhuwan-kumar" target="_blank"><i class="fab fa-github"></i></a>
                             <a href="https://www.instagram.com/tribhuwan.1" target="_blank"><i class="fab fa-instagram"></i></a>
                             <a href="https://twitter.com/tribhuwan_1" target="_blank"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/tribhuwan-kumar-7b6049289/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
-                          </div>
+                            <a href="https://www.linkedin.com/in/tribhuwan-kumar-7b6049289/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
                         </div>
-                   </div>
-                 
-                  <footer id="footer">
-                          <div id="created_paragraph">
-                                  <p>Created by <a href="https://github.com/tribhuwan-kumar/Portfolio" target="_blank" id="purple" > <b> Tribhuwan </b> </a> with Love and pure CSS & HTML</p>
-                          </div>
-                                            <div id="copyright"><p> Copyright &copy; 2023</p></div>
-                          <div id="footer-social-icons">
-                                <a href="https://www.github.com/tribhuwan-kumar" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href="https://www.instagram.com/tribhuwan.1" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://twitter.com/tribhuwan_1" target="_blank"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/in/tribhuwan-kumar-7b6049289/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
-                          </div>
-                  </footer>
-
-          </div>
+                  </footer>     
+         </div>     
     </div>
-<script src="./navbar.js"></script>
-  </body>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="navbar.js"></script>
+</body>
 </html>

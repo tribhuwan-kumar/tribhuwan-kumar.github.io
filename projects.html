@@ -9,59 +9,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribhuwan | Projects</title>
 
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="./CSS/projects.css">
     <link rel="stylesheet" href="./CSS/animation.css">
     <link rel="icon" href="./ASSETS/favicon.ico" type="image/x-icon">
 
-    <!-- Fonts-->
-    <style>@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Karla&family=Kaushan+Script&display=swap');</style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- FONTS -->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Raleway:wght@300;400;500;600;700&display=swap');</style>
 
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-   <div class="header">
+    <div class="container-fluid position-relative pe-0 ps-0 me-0 ms-0">
         <div id="background">
-                            <div id="nav_container" >
-                                        <nav id="navbar">
-                                             <a href="about.html"><i class="fas fa-rocket"></i> About me</a>
-                                             <a href="projects.html"><i class="fas fa-laptop-code"></i> Projects</a>
-                                             <a href="https://www.fiverr.com/tribhuwan_kumar" target="_blank"><i class="fas fa-wrench"></i> Services</a>
-                                             <a href="mailto:tribhuwankumar735275@gmail.com"><i class="fas fa-envelope"></i> Contact me</a>
-                                        </nav>
-                                        <div class="menu_icon">
-                                            <div class="line"></div>
-                                            <div class="line"></div>
-                                            <div class="line"></div>
-                                        </div>
-                                                <a href="index.html" id="left-heading"> Tribhuwan</a>
-                            </div>
-                                                                <h3> My Recent <b class="slate_blue"> Projects</b></h3>
-                                                        <p>Here are few <b class="slate_blue">Projects</b> I've worked on recently</p>
-                            <div id="project_block">
-                                <div id="box">
-                                        <img src="/ASSETS/laptop-illustrate.png" alt="" style="width: 500px;">
-                                        <h4>Created a <b class="slate_blue">Functional Web</b> in Pure <b class="slate_blue">CSS & HTML</b></h4>
-                                        <div id="button"><a href="https://github.com/tribhuwan-kumar/Portfolio" target="_blank">Source Code</a></div>
-                                </div>
-                            </div>
-                            
-                        <footer id="footer">
-                                <div id="created_paragraph">
-                                        <p>Created by <a href="https://github.com/tribhuwan-kumar/Portfolio" target="_blank" id="footer_highlight" > <b> Tribhuwan </b> </a> with Love and pure CSS & HTML</p>
-                                </div>
-                                                  <div id="copyright"><p> Copyright &copy; 2023</p></div>
-                                <div id="footer-social-icons">
-                                      <a href="https://www.github.com/tribhuwan-kumar" target="_blank"><i class="fab fa-github"></i></a>
-                                      <a href="https://www.instagram.com/tribhuwan.1" target="_blank"><i class="fab fa-instagram"></i></a>
-                                      <a href="https://twitter.com/tribhuwan_1" target="_blank"><i class="fab fa-twitter"></i></a>
-                                      <a href="https://www.linkedin.com/in/tribhuwan-kumar-7b6049289/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
-                                </div>
-                        </footer>
+            <div id="nav_container" class="d-block sticky-top float-end">
+                <a href="index.html" id="left_heading" class="col-2 d-inline-block"> Tribhuwan</a>
+                <nav id="navbar" class="float-end text-start  d-none d-md-block">
+                    <a href="about.html"><i class="fas fa-rocket"></i> About me</a>
+                    <a href="projects.html"><i class="fas fa-laptop-code"></i> Projects</a>
+                    <a href="https://www.fiverr.com/tribhuwan_kumar" target="_blank"><i class="fas fa-wrench"></i> Services</a>
+                    <a href="mailto:tribhuwankumar735275@gmail.com"><i class="fas fa-envelope"></i> Contact me</a>
+                </nav>
+                <div class="menu_icon d-md-none float-md-end">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+                                            <h1 class="text-center d-block mb-0"> My Recent<b class="highlight_text"> Projects</b></h1>
+                                <p class="text-center m-0" >Here are few <b class="highlight_text">Projects</b> I've worked on recently</p>
+                             <div id="project_block" class="d-flex align-items-center justify-content-center">
+                        <div id="box" class="d-flex align-items-center flex-column mt-5">
+                                <img src="./ASSETS/laptop-illustrate.png" alt="laptop_image">
+                                        <h4>Created an Open Source <b class="highlight_text">Portfolio Web</b></h4>
+                             <div id="button" class="border-0 d-inline-block"><a href="https://github.com/tribhuwan-kumar/Portfolio" target="_blank">Source Code</a></div>
+                        </div>
+                      </div>
 
+                      <footer class="d-flex position-absolute bottom-0 align-items-center">
+                                <p class="d-inline mb-0 ms-5 col-3" id="created_text">Created by <a href="https://github.com/tribhuwan-kumar/Portfolio" target="_blank"> Tribhuwan</a> | Website  <a href="https://github.com/tribhuwan-kumar/Portfolio" target="_blank">Source Code</a></p>
+                                                <p class="d-inline mb-0 col-5 text-center" id="copyright_text"> Copyright &copy; 2023</p>
+                       <div id="footer-social-icons" class="col-sm-4 text-center me-md-4">
+                           <a href="https://www.github.com/tribhuwan-kumar" target="_blank"><i class="fab fa-github"></i></a>
+                           <a href="https://www.instagram.com/tribhuwan.1" target="_blank"><i class="fab fa-instagram"></i></a>
+                           <a href="https://twitter.com/tribhuwan_1" target="_blank"><i class="fab fa-twitter"></i></a>
+                           <a href="https://www.linkedin.com/in/tribhuwan-kumar-7b6049289/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
+                       </div>
+                    </footer>
 
+            </div>
         </div>
-    </div>
-    <script src="navbar.js"></script>
+      <!-- BOOTSTRAP JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="navbar.js"></script>
 </body>
 </html>

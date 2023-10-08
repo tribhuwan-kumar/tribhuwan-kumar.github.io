@@ -1,4 +1,4 @@
-.header {
+.container-fluid {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -65,9 +65,8 @@
   }
 }
 
-
 @media (max-width: 768px){
-  .header {
+  .container-fluid {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -134,4 +133,34 @@
     }
   }
   
+}
+
+/*Chrome side scrollbar styling*/
+@media (min-width: 576.1px){
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1f0465;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1b0359ae;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0d0033;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+  }
+}
+
+/* Firefox side scrollbar styling */
+* {
+scrollbar-width: thin;
+scrollbar-color: #1f0465 #0d0033;
 }
