@@ -94,6 +94,10 @@ html, body{
 
 }
 
+#bottom_topics li::marker{
+  content: none;
+}
+
 #bottom_topics li a{
   font-weight: 300;
   padding-left: 5px;
@@ -607,11 +611,11 @@ footer {
 
   #background h1{
     margin-top: 280px;
-    font-size: 37px;
+    font-size: 41px;
   }
 
   #bottom_topics li a {
-    padding-left: 4px;
+    padding-left: 2px;
     padding-right: 1px;
     font-weight: 400;
     font-size: 16px;
