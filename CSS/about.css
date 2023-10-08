@@ -102,7 +102,6 @@ html, body{
 }
 
 #introduce_block > img{
-  margin: auto;
   max-width: 510px;
   height: fit-content;
 
@@ -303,7 +302,8 @@ footer {
   }
 
   #introduce_block > img{
-     width: 420px;
+     margin: auto !important;
+     width: 450px;
   }
 
   #quote > h4 {
@@ -570,7 +570,13 @@ footer {
      }
 }
 
+@media only screen and (min-width: 1049.2px) and (max-width: 1199.8px) {
 
+  #introduce_block > img{
+    max-width: 450px;
+  }
+  
+}
 
 
 
