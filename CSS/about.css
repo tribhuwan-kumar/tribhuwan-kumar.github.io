@@ -116,7 +116,6 @@ html, body{
   word-wrap: auto;
   max-width: 800px;
   max-height: fit-content;
-  backdrop-filter: blur(1.5px);
 
 } 
 
