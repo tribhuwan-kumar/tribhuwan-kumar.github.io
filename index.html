@@ -48,14 +48,14 @@
             setTimeout(function() {
               location.reload();
             }, refreshInterval);
-          </script>
 
-        <script>
+            
             window.addEventListener('load', function () {
-                const mainPageLoadTime = performance.timing.loadEventEnd - performance.timing.navigationStart;
+                const pageLoadTime = performance.now();
+                console.log(`Page load time is ${pageLoadTime}`);
                 setTimeout(function () {
                     window.location.href = 'home.html';
-                }, mainPageLoadTime);
+                }, pageLoadTime);
             });
         </script>
 </body>
