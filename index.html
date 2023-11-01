@@ -35,27 +35,27 @@
     </div>
 
         <script>
-                    let firstScriptExecuted = false;
+                    let scriptExecuted = false
 
-                    window.addEventListener('load', function(){
-                        if (!firstScriptExecuted){
+                    if(!scriptExecuted){
 
+                            window.addEventListener('load', function () {
                             const pageLoadTime = performance.now();
-                            console.log(`Page load time is ${pageLoadTime}`);
+                            console.log(`Page load time is ${pageLoadTime}ms`);
 
-                            setTimeout(function(){
+                            setTimeout(function () {
                                 window.location.href = 'home.html';
                             }, pageLoadTime);
+                        });
 
-                            firstScriptExecuted = true;
-                        } else{
+                            scriptExecuted = true;
+                    } else{
                             const refreshInterval = 1000;
 
                             setTimeout(function(){
                                 location.reload();
                             }, refreshInterval);
-                        }
-                    });
+                    }
         </script>
 
 
