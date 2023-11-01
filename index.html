@@ -35,24 +35,18 @@
     </div>
 
         <script>
-                    let scriptExecuted = false;
+                const refreshInterval = 2500;
+                setTimeout(function(){
+                    location.reload();
+                }, refreshInterval);
 
-                    if(scriptExecuted === false){
-                            window.addEventListener('load', function () {
-                                const pageLoadTime = performance.now();
-                                console.log(`Page load time is ${pageLoadTime}ms`);
-                                setTimeout(function () {
-                                    window.location.href = 'home.html';
-                                }, pageLoadTime);
-                        });
-
-                        scriptExecuted = true;
-                    } else if(scriptExecuted === true){
-                            const refreshInterval = 1000;
-                            setTimeout(function(){
-                                location.reload();
-                            }, refreshInterval);
-                    }
+                window.addEventListener('load', function () {
+                    const pageLoadTime = performance.now();
+                    console.log(`Page load time is ${pageLoadTime}ms`);
+                    setTimeout(function () {
+                        window.location.href = 'home.html';
+                    }, pageLoadTime);
+                });
         </script>
 
 
