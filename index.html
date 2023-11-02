@@ -33,22 +33,14 @@
             </div>
         </div>
     </div>
-
-        <script>
-                const refreshInterval = 2500;
-                setTimeout(function(){
-                    location.reload();
-                }, refreshInterval);
-
+      <script>
                 window.addEventListener('load', function () {
                     const pageLoadTime = performance.now();
                     console.log(`Page load time is ${pageLoadTime}ms`);
                     setTimeout(function () {
-                        window.location.href = 'home.html';
+                        window.location.replace("home.html");
                     }, pageLoadTime);
                 });
         </script>
-
-
 </body>
 </html>
