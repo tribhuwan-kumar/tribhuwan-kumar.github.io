@@ -1,1 +1,1 @@
-## [tribhuwan-kumar.github.io](https://tribhuwan.me/)
+## [tribhuwan-kumar.github.io](https://tribhuwan-kumar.github.io/)
